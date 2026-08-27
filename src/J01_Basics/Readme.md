@@ -61,3 +61,60 @@ division, and finding the remainder.
 | `float`   | `double`  | `double`    |
 
 
+Increment and Decrement Operators in Java
+🗺️ Big Picture
+
+These operators change a variable's value by exactly 1.
+
+There are four forms:
+
+++x   // Pre-increment
+x++   // Post-increment
+
+--x   // Pre-decrement
+x--   // Post-decrement
+
+
+1. Increment Operator ++
+   Definition
+
+The increment operator ++ increases the value of a variable by 1.
+
+Example:
+
+int x = 10;
+
+x++;
+
+After this:
+
+x = 11
+
+2. Decrement Operator --
+   Definition
+
+The decrement operator -- decreases the value of a variable by 1.
+
+Example:
+
+int x = 10;
+
+x--;
+
+Now:
+
+x = 9
+
+It is equivalent to:
+
+x = x - 1;
+
+The Easiest Comparison
+Code	Meaning	Final x	y
+y = x++	Use, then increment	11	10
+y = ++x	Increment, then use	11	11
+
+So remember:
+
+Postfix = use first, change later.
+Prefix = change first, use later.
