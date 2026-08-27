@@ -52,19 +52,20 @@ public class CO2_Operators {
 //        System.out.print("Area of the triangle "+ Area);
 //
 //        area of a equivalent triangle without height
-        float a,b,c,s,area;
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter sides of triangle");;
-        a = sc.nextFloat();
-        b = sc.nextFloat();
-        c = sc.nextFloat();
+//        float a,b,c,s,area;
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("enter sides of triangle");;
+//        a = sc.nextFloat();
+//        b = sc.nextFloat();
+//        c = sc.nextFloat();
+//
+//        s = (a+b+c)/2f;
+//        System.out.println("perimeter of triangle "+s);
+//        area = (float) (Math.sqrt(s*(s-a)*(s-b)*(s-c)));
+//
+//        System.out.print("area of the triangle "+ area);
 
-        s = (a+b+c)/2f;
-        System.out.println("perimeter of triangle "+s);
-        area = (float) (Math.sqrt(s*(s-a)*(s-b)*(s-c)));
-
-        System.out.print("area of the triangle "+ area);
-
+// Bitwise operators
 
     }
 }
